@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Fases da Lua</string>
+
+    // ADS
+    <string name="ads_app_key">ca-app-pub-7733992246408205~2895477292</string>
+    <string name="ads_banner_key">ca-app-pub-7733992246408205/3003288507</string>
+
+    // NOTIFICATION
+    <string name="notification_current_moon_phase_title">Hoje é o primeiro dia da %s</string>
+    <string name="notification_current_moon_phase_body">Acompanhe a evolução da lua pelo nosso app agora mesmo!</string>
+
+    // HOME
+    <string name="text_home_screen_actual_moon_phase">A lua de hoje é %s\ne está %s\%% visível"</string>
+    <string name="text_home_screen_actual_moon_phase_bold_1">%s"</string>
+    <string name="text_home_screen_actual_moon_phase_bold_2">%s\%%"</string>
+    <plurals name="text_home_screen_next_moon_phase">
+        <item quantity="one">Falta %s dia para\n%s</item>
+        <item quantity="other">Faltam %s dias para\n%s</item>
+    </plurals>
+
+    <string name="home_bottom_sheet_title">Boas-vindas!</string>
+    <string name="home_bottom_sheet_body">E aí, tudo bem? Estamos felizes em ver você aqui. Criamos esse app pra te ajudar a acompanhar a fase atual da lua.\n\nNão esqueça de avaliar a gente e se tiver qualquer dúvida, só entrar em contato com a nossa equipe, tá bom?</string>
+    <string name="home_bottom_sheet_body_bold_1">te ajudar a acompanhar a fase atual da lua.</string>
+    <string name="home_bottom_sheet_body_bold_2">Não esqueça de avaliar a gente</string>
+    <string name="home_bottom_sheet_button">Começar agora</string>
+
+    <string name="ads_off_bottom_sheet_title">Seja premium!</string>
+    <string name="ads_off_bottom_sheet_body">Ei, se você é fã do nosso app, que tal dar o próximo passo e fazer upgrade pra versão premium agora mesmo?\n\nAlém de uma experiência mais fluida, sua contribuição vai ajudar a gente a manter o app funcionando e melhorando cada vez mais.\n\nNão perca essa oportunidade! Faça upgrade agora e apoie o nosso aplicativo!</string>
+    <string name="ads_off_bottom_sheet_body_bold_1">fazer upgrade pra versão premium agora mesmo?</string>
+    <string name="ads_off_bottom_sheet_body_bold_2">Não perca essa oportunidade!</string>
+    <string name="ads_off_bottom_sheet_button">Fazer upgrade agora</string>
+
+    <string name="horoscope_bottom_sheet_title">Previsões diárias</string>
+    <string name="horoscope_bottom_sheet_body">Quer saber o que o universo tem reservado para você? Então corre e baixe o nosso incrível aplicativo de horóscopo agora mesmo!\n\nAlém de ler a sua descrição astrológica completa, você pode acompanhar as previsões diárias. E se você quer uma ajudinha extra para aproveitar ao máximo cada dia, oferecemos conselhos astrológicos personalizados.\n\nNão perca mais tempo e baixe o nosso app agora para começar a planejar o seu futuro de forma incrível!</string>
+    <string name="horoscope_bottom_sheet_body_bold_1">corre e baixe o nosso incrível aplicativo de horóscopo agora mesmo!</string>
+    <string name="horoscope_bottom_sheet_body_bold_2">E se você quer uma ajudinha extra para aproveitar ao máximo cada dia</string>
+    <string name="horoscope_bottom_sheet_body_bold_3">Não perca mais tempo e baixe o nosso app agora</string>
+    <string name="horoscope_bottom_sheet_button">Quero conhecer meu futuro</string>
+
+</resources>
