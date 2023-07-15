@@ -1,12 +1,6 @@
-
 # Moonphase Android App
 
-The Moonphase Android App is a mobile application developed with Jetpack Compose and Kotlin. It provides users accurate information about moon phases. The app consumes data from the [Moonphases Crawler](), a reliable web scraping tool that collects data on date, moon phase, illumination, and moon phase change time.
-
-
-## Demo
-
-<img src=".github/moonphases.gif" width="300" height="530" />
+The Moonphase Android App is a mobile application developed with Jetpack Compose and Kotlin. It provides users accurate information about moon phases. The app consumes data from the [Moonphases Crawler](https://github.com/gustavofariaa/moonphases-crawler), a reliable web scraping tool that collects data on date, moon phase, illumination, and moon phase change time.
 
 ## Lessons Learned
 
@@ -33,12 +27,17 @@ During the development of the Moonphase Android App, several valuable lessons we
   The app utilizes Material Design principles and follows the latest Material3 guidelines to provide a modern user interface. I implemented Material Design components, typography and color schemes.
 
 
+## Demo
+
+<img src=".github/moonphases.gif" width="300" height="530" />
+
+
 ## Getting Started
 
 1. Clone the project
 
     ```bash
-    git clone https://link-to-project
+    git clone https://github.com/gustavofariaa/moonphases.git
     ```
 
 1. Open the project in Android Studio.
