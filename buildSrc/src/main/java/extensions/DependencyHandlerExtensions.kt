@@ -10,15 +10,12 @@ fun DependencyHandler.androidBase() {
     implementation(Dependencies.CORE)
     implementation(Dependencies.LIFECYCLE_RUNTIME)
     implementation(Dependencies.SPLASHSCREEN)
+    implementation(Dependencies.GSON)
     ads()
     inAppReview()
     material()
     compose()
     navigationCompose()
-    // TEST
-    testImplementation(Dependencies.JUNIT_TEST)
-    androidTestImplementation(Dependencies.EXT_JUNIT_TEST)
-    androidTestImplementation(Dependencies.ESPRESSO_CORE_TEST)
 }
 
 fun DependencyHandler.inAppReview() {
@@ -31,7 +28,6 @@ fun DependencyHandler.ads() {
 }
 
 fun DependencyHandler.material() {
-    implementation(Dependencies.MATERIAL)
     implementation(Dependencies.MATERIAL3)
 }
 
@@ -39,8 +35,6 @@ fun DependencyHandler.compose() {
     implementation(Dependencies.ACTIVITY_COMPOSE)
     implementation(Dependencies.COMPOSE_UI)
     implementation(Dependencies.UI_TOOLING)
-    // TEST
-    androidTestImplementation(Dependencies.JUNIT_COMPOSE_TEST)
     // DEBUG
     debugImplementation(Dependencies.UI_TOOLING_COMPOSE_DEBUG)
     debugImplementation(Dependencies.UI_TEST_MANIFEST_COMPOSE_DEBUG)

@@ -22,7 +22,7 @@ fun Project.configureAndroid() = this.extensions.getByType<BaseExtension>().run 
 
     buildFeatures.compose = true
 
-    composeOptions.kotlinCompilerExtensionVersion = "1.3.2"
+    composeOptions.kotlinCompilerExtensionVersion = "1.4.2"
 
     configurations.all {
         resolutionStrategy.eachDependency {

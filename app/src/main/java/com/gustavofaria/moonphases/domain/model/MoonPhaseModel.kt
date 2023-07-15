@@ -1,8 +1,14 @@
 package com.gustavofaria.moonphases.domain.model
 
-import com.gustavofaria.moonphases.constants.MoonPhaseEnum
+import com.google.gson.annotations.SerializedName
 
 data class MoonPhaseModel(
-    val moonPhase: MoonPhaseEnum,
-    val moonVisibility: Long
+    @SerializedName("id")
+    val id: String?,
+    @SerializedName("moon")
+    val moon: String?,
+    @SerializedName("illumination")
+    val illumination: String?,
+    @SerializedName("phaseChangeTime")
+    val phaseChangeTime: String?
 )

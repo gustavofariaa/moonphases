@@ -3,9 +3,8 @@ import extensions.configureAndroid
 
 plugins {
     id("com.android.application")
-    id("kotlin-android")
-    id("org.jetbrains.kotlin.android")
-    id("kotlin-kapt")
+    kotlin("android")
+    kotlin("kapt")
 }
 
 kapt {
@@ -21,4 +20,8 @@ dependencies {
         }
     }
     androidBase()
+}
+
+android {
+    namespace = "com.gustavofaria.moonphases"
 }

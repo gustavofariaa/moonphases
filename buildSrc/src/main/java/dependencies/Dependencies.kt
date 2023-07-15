@@ -16,7 +16,6 @@ object Dependencies {
     const val REVIEW_KTX = "com.google.android.play:review-ktx:${Versions.REVIEW}"
 
     // MATERIAL
-    const val MATERIAL = "androidx.compose.material:material:${Versions.MATERIAL}"
     const val MATERIAL3 = "androidx.compose.material3:material3:${Versions.MATERIAL3}"
 
     // COMPOSE
@@ -28,16 +27,12 @@ object Dependencies {
     const val NAVIGATION_COMPOSE =
         "androidx.navigation:navigation-compose:${Versions.NAVIGATION_COMPOSE}"
 
-    // COMPOSE TEST
-    const val JUNIT_COMPOSE_TEST = "androidx.compose.ui:ui-test-junit4:${Versions.COMPOSE}"
+    // GSON
+    const val GSON =
+        "com.google.code.gson:gson:${Versions.GSON}"
 
     // COMPOSE DEBUG
     const val UI_TOOLING_COMPOSE_DEBUG = "androidx.compose.ui:ui-tooling:${Versions.COMPOSE}"
     const val UI_TEST_MANIFEST_COMPOSE_DEBUG =
         "androidx.compose.ui:ui-test-manifest:${Versions.COMPOSE}"
-
-    // TEST
-    const val JUNIT_TEST = "junit:junit:${Versions.JUNIT}"
-    const val EXT_JUNIT_TEST = "androidx.test.ext:junit:${Versions.EXT_JUNIT}"
-    const val ESPRESSO_CORE_TEST = "androidx.test.espresso:espresso-core:${Versions.ESPRESSO_CORE}"
 }
